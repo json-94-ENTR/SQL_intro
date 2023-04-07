@@ -15,4 +15,6 @@
 -- | 2019 | Houston Astros                | 107       |
 -- | 2004 | St. Louis Cardinals           | 105       |
 
+SELECT year,name,wins
+FROM teams
 

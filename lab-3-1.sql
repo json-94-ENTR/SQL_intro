@@ -14,7 +14,7 @@
 -- | 2020 | 30       |
 -- +------+----------+
 
-SELECT year, count (name)
+SELECT year, COUNT (*)
 FROM teams
-GROUP BY count (name)
+GROUP BY year
 ;
